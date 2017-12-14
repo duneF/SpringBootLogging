@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123
+    url: jdbc:mysql://192.168.99.135:3306/dianCan?characterEncoding=utf-8$useSSL=false
+  jpa:
+    show-sql: true
+server:
+  context-path: /dianCan
+#logging:
+#  pattern:
+#
+#  #%d show date   %msg information  %n change line
+#    console:  "%d - %msg%n"
+#  #give name dianCan.log to logging
+#  file: /Volumes/D/dc/dianCanLogging/dianCan.log
+#  level:
+#         com.dunef.demo.DemoApplicationTests: info
+# # path: /Volumes/D/dc/dianCanLogging ,default name spring.log
